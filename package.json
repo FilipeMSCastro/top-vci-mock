@@ -1,0 +1,15 @@
+{
+  "name": "siga-vp-sandbox",
+  "version": "0.1.0",
+  "description": "Disposable mock of a fictional municipal heavy-vehicle circulation permit portal (SIGA-VP), built for a browser-automation proof of concept.",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
